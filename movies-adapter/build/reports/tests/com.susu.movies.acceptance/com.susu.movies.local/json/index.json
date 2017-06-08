@@ -1,0 +1,355 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 111163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StatusSteps.groovy:19"
+            }
+          },
+          {
+            "result": {
+              "duration": 19183,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StatusSteps.groovy:19"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test success movies searching",
+        "description": "",
+        "id": "search-movies;test-success-movies-searching",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 868686478,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "app has started",
+            "match": {
+              "location": "CommonSteps.groovy:18"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 366984543,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "we received a search movies request",
+            "match": {
+              "location": "SearchMoviesSteps.groovy:20"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "query",
+                  "page",
+                  "language",
+                  "includeAdult",
+                  "year",
+                  "primaryReleaseYear"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "club",
+                  "0",
+                  "en",
+                  "",
+                  "",
+                  ""
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "fight club",
+                  "0",
+                  "en",
+                  "",
+                  "",
+                  ""
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2746679,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status code 200 returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 12
+                }
+              ],
+              "location": "CommonSteps.groovy:22"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StatusSteps.groovy:19"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Test fails because query parameter is not provided",
+        "description": "",
+        "id": "search-movies;test-fails-because-query-parameter-is-not-provided",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21744837,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "app has started",
+            "match": {
+              "location": "CommonSteps.groovy:18"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107482242,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "we received a search movies request",
+            "match": {
+              "location": "SearchMoviesSteps.groovy:20"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "query",
+                  "page",
+                  "language",
+                  "includeAdult",
+                  "year",
+                  "primaryReleaseYear"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "",
+                  "0",
+                  "en",
+                  "",
+                  "",
+                  ""
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124754,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "status code 400 returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 12
+                }
+              ],
+              "location": "CommonSteps.groovy:22"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Test fails because client throws SearchMoviesException",
+        "description": "",
+        "id": "search-movies;test-fails-because-client-throws-searchmoviesexception",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18395208,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "app has started",
+            "match": {
+              "location": "CommonSteps.groovy:18"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50356859,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "we received a search movies request",
+            "match": {
+              "location": "SearchMoviesSteps.groovy:20"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "query",
+                  "page",
+                  "language",
+                  "includeAdult",
+                  "year",
+                  "primaryReleaseYear"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "error",
+                  "0",
+                  "en",
+                  "",
+                  "",
+                  ""
+                ],
+                "line": 22
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137074,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "status code 500 returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 12
+                }
+              ],
+              "location": "CommonSteps.groovy:22"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search movies",
+    "description": "",
+    "id": "search-movies",
+    "keyword": "Feature",
+    "uri": "search-movies.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17271,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StatusSteps.groovy:19"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test app is running",
+        "description": "",
+        "id": "app-status;test-app-is-running",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35096513,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "app has started",
+            "match": {
+              "location": "CommonSteps.groovy:18"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85916560,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "app status requested",
+            "match": {
+              "location": "StatusSteps.groovy:27"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207634,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "app status is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 15
+                }
+              ],
+              "location": "StatusSteps.groovy:31"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "App status",
+    "description": "",
+    "id": "app-status",
+    "keyword": "Feature",
+    "uri": "status.feature"
+  }
+]

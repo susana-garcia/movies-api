@@ -1,0 +1,439 @@
+ã15:53:49.961 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+å15:53:49.966 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+û15:53:49.966 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ä15:53:49.972 [Test worker] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Found Equinox FileLocator for OSGi bundle URL resolution
+›15:53:50.102 [Test worker] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/search],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)
+m15:53:50.223 [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+r15:53:50.225 [Test worker] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.0.Alpha1
+“15:53:50.249 [Test worker] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+æ15:53:50.262 [Test worker] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+à15:53:50.264 [Test worker] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy21
+ë15:53:50.266 [Test worker] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+t15:53:50.268 [Test worker] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+í15:53:50.269 [Test worker] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ê15:53:50.269 [Test worker] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+ª15:53:50.332 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@73ba3f88
+[15:53:50.411 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Initializing servlet ''
+ñ15:53:50.427 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+ó15:53:50.427 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+è15:53:50.431 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ê15:53:50.431 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+⁄15:53:50.431 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+k15:53:50.431 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+o15:53:50.431 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+¨15:53:50.434 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+£15:53:50.434 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@472cd3a9]
+õ15:53:50.434 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@7266e94f]
+∏15:53:50.435 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2a200d65]
+£15:53:50.435 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@45a6e008]
+”15:53:50.435 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+y15:53:50.435 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 4 ms
+f15:53:50.435 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Servlet '' configured successfully
+à15:53:50.610 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/search]
+ñ15:53:50.613 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /search
+ò15:53:50.616 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)]
+Å15:53:50.670 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Reading [class com.susu.movies.model.SearchMoviesRequest] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@71b99a18]
+å15:53:50.709 [Test worker] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@6f71a0c4, payload=[Ljava.lang.Class;@46b07098}, constraintType=GENERIC}.
+ú15:53:50.709 [Test worker] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@f6fed4b, min=1, message={javax.validation.constraints.Size.message}, max=2147483647, payload=[Ljava.lang.Class;@6afc8dce}, constraintType=GENERIC}.
+¥15:53:50.841 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Null ModelAndView returned to DispatcherServlet with name '': assuming HandlerAdapter completed request handling
+b15:53:50.841 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Successfully completed request
+ã15:53:50.862 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+å15:53:50.862 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+û15:53:50.863 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+›15:53:50.865 [Test worker] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/search],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)
+“15:53:50.870 [Test worker] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+æ15:53:50.870 [Test worker] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+à15:53:50.870 [Test worker] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy21
+ë15:53:50.870 [Test worker] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+t15:53:50.871 [Test worker] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+í15:53:50.871 [Test worker] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ê15:53:50.871 [Test worker] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+ª15:53:50.873 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5169d71d
+[15:53:50.876 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Initializing servlet ''
+ñ15:53:50.877 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+ó15:53:50.877 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+è15:53:50.877 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ê15:53:50.877 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+⁄15:53:50.877 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+k15:53:50.877 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+o15:53:50.877 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+¨15:53:50.878 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+£15:53:50.878 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@7287d506]
+õ15:53:50.878 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@10034590]
+∏15:53:50.878 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1a8eede5]
+¢15:53:50.878 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@52adae1]
+”15:53:50.878 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+y15:53:50.878 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 0 ms
+f15:53:50.878 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Servlet '' configured successfully
+à15:53:50.881 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/search]
+ñ15:53:50.881 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /search
+ò15:53:50.881 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)]
+Å15:53:50.886 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Reading [class com.susu.movies.model.SearchMoviesRequest] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@49c910a7]
+å15:53:50.887 [Test worker] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@43ece3cb, payload=[Ljava.lang.Class;@2ee0df96}, constraintType=GENERIC}.
+ù15:53:50.888 [Test worker] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@7d4ef579, min=1, message={javax.validation.constraints.Size.message}, max=2147483647, payload=[Ljava.lang.Class;@7c839e5f}, constraintType=GENERIC}.
+≈15:53:50.903 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolving exception from handler [public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)]: com.susu.movies.search.adapter.SearchMoviesException: error
+æ15:53:50.906 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Invoking @ExceptionHandler method: public org.springframework.http.ResponseEntity<java.lang.String> com.susu.movies.search.SearchMoviesController.handleFlightStatsProviderException(com.susu.movies.search.adapter.SearchMoviesException)
+_15:53:50.911 [Test worker] WARN  c.s.m.search.SearchMoviesController - Error searching movies 
+<com.susu.movies.search.adapter.SearchMoviesException: error
+Y	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_45]
+p	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_45]
+x	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_45]
+S	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[na:1.8.0_45]
+q	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77) ~[groovy-2.4.3.jar:2.4.3]
+ù	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102) ~[groovy-2.4.3.jar:2.4.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57) ~[groovy-2.4.3.jar:2.4.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:232) ~[groovy-2.4.3.jar:2.4.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:244) ~[groovy-2.4.3.jar:2.4.3]
+ë	at com.susu.movies.search.SearchMoviesControllerTest$__spock_feature_0_0prov2_closure3.doCall(SearchMoviesControllerTest.groovy:47) ~[test/:na]
+é	at com.susu.movies.search.SearchMoviesControllerTest$__spock_feature_0_0prov2_closure3.doCall(SearchMoviesControllerTest.groovy) ~[test/:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+g	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) ~[groovy-2.4.3.jar:2.4.3]
+Y	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324) ~[groovy-2.4.3.jar:2.4.3]
+}	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:292) ~[groovy-2.4.3.jar:2.4.3]
+^	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016) ~[groovy-2.4.3.jar:2.4.3]
+u	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:39) ~[groovy-2.4.3.jar:2.4.3]
+t	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-2.4.3.jar:2.4.3]
+u	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54) ~[groovy-2.4.3.jar:2.4.3]
+t	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:114) ~[groovy-2.4.3.jar:2.4.3]
+å	at com.susu.movies.search.SearchMoviesControllerTest$__spock_feature_0_0_closure1.doCall(SearchMoviesControllerTest.groovy:41) ~[test/:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+g	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) ~[groovy-2.4.3.jar:2.4.3]
+Y	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324) ~[groovy-2.4.3.jar:2.4.3]
+}	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:292) ~[groovy-2.4.3.jar:2.4.3]
+^	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016) ~[groovy-2.4.3.jar:2.4.3]
+I	at groovy.lang.Closure.call(Closure.java:423) ~[groovy-2.4.3.jar:2.4.3]
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeClosure(GroovyRuntimeUtil.java:184) ~[spock-core-0.7-groovy-2.0.jar:na]
+å	at org.spockframework.mock.response.CodeResponseGenerator.invokeClosure(CodeResponseGenerator.java:53) ~[spock-core-0.7-groovy-2.0.jar:na]
+à	at org.spockframework.mock.response.CodeResponseGenerator.doRespond(CodeResponseGenerator.java:36) ~[spock-core-0.7-groovy-2.0.jar:na]
+ä	at org.spockframework.mock.response.SingleResponseGenerator.respond(SingleResponseGenerator.java:31) ~[spock-core-0.7-groovy-2.0.jar:na]
+à	at org.spockframework.mock.response.ResponseGeneratorChain.respond(ResponseGeneratorChain.java:45) ~[spock-core-0.7-groovy-2.0.jar:na]
+x	at org.spockframework.mock.runtime.MockInteraction.accept(MockInteraction.java:76) ~[spock-core-0.7-groovy-2.0.jar:na]
+ä	at org.spockframework.mock.runtime.MockInteractionDecorator.accept(MockInteractionDecorator.java:46) ~[spock-core-0.7-groovy-2.0.jar:na]
+|	at org.spockframework.mock.runtime.InteractionScope$1.accept(InteractionScope.java:41) ~[spock-core-0.7-groovy-2.0.jar:na]
+v	at org.spockframework.mock.runtime.MockController.handle(MockController.java:39) ~[spock-core-0.7-groovy-2.0.jar:na]
+É	at org.spockframework.mock.runtime.JavaMockInterceptor.intercept(JavaMockInterceptor.java:72) ~[spock-core-0.7-groovy-2.0.jar:na]
+ì	at org.spockframework.mock.runtime.CglibMockInterceptorAdapter.intercept(CglibMockInterceptorAdapter.java:30) ~[spock-core-0.7-groovy-2.0.jar:na]
+å	at com.susu.movies.search.adapter.DefaultSearchMoviesAdapter$$EnhancerByCGLIB$$fc9fd66.searchMovies(<generated>) ~[cglib-nodep-3.1.jar:na]
+m	at com.susu.movies.search.SearchMoviesController.searchMovies(SearchMoviesController.groovy:36) ~[main/:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+ö	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+¢	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+¡	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+¬	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+æ	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+™	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+é	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+ç	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+è	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+á	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+h	at javax.servlet.http.HttpServlet.service(HttpServlet.java:644) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+à	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+î	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+h	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+ï	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+Ç	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+y	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:144) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+|	at org.springframework.test.web.servlet.MockMvc$perform.call(Unknown Source) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+z	at com.susu.movies.search.SearchMoviesControllerTest.$spock_feature_0_0(SearchMoviesControllerTest.groovy:37) [test/:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+t	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:na]
+~	at org.spockframework.runtime.BaseSpecRunner.invokeFeatureMethod(BaseSpecRunner.java:285) [spock-core-0.7-groovy-2.0.jar:na]
+y	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:256) [spock-core-0.7-groovy-2.0.jar:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+t	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:na]
+w	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:223) [spock-core-0.7-groovy-2.0.jar:na]
+Ñ	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:214) [spock-core-0.7-groovy-2.0.jar:na]
+ä	at org.spockframework.runtime.ParameterizedSpecRunner.runIterations(ParameterizedSpecRunner.java:119) [spock-core-0.7-groovy-2.0.jar:na]
+ì	at org.spockframework.runtime.ParameterizedSpecRunner.runParameterizedFeature(ParameterizedSpecRunner.java:43) [spock-core-0.7-groovy-2.0.jar:na]
+w	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:198) [spock-core-0.7-groovy-2.0.jar:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+t	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:na]
+u	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:175) [spock-core-0.7-groovy-2.0.jar:na]
+v	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:152) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:112) [spock-core-0.7-groovy-2.0.jar:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+t	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:91) [spock-core-0.7-groovy-2.0.jar:na]
+m	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:82) [spock-core-0.7-groovy-2.0.jar:na]
+_	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) [spock-core-0.7-groovy-2.0.jar:na]
+ë	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86) [gradle-plugins-2.3.jar:2.3]
+å	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49) [gradle-plugins-2.3.jar:2.3]
+ó	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64) [gradle-plugins-2.3.jar:2.3]
+ë	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50) [gradle-plugins-2.3.jar:2.3]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+y	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-2.3.jar:2.3]
+y	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-2.3.jar:2.3]
+â	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-2.3.jar:2.3]
+ò	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-2.3.jar:2.3]
+C	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106) [gradle-plugins-2.3.jar:2.3]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+y	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-2.3.jar:2.3]
+y	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-2.3.jar:2.3]
+x	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360) [gradle-messaging-2.3.jar:2.3]
+ô	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64) [gradle-base-services-2.3.jar:2.3]
+b	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_45]
+b	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_45]
+8	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+‹15:53:50.917 [Test worker] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [error] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@49c910a7]
+¥15:53:50.917 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Null ModelAndView returned to DispatcherServlet with name '': assuming HandlerAdapter completed request handling
+b15:53:50.917 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Successfully completed request
+ã15:53:50.919 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+å15:53:50.919 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+û15:53:50.920 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+›15:53:50.922 [Test worker] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/search],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)
+“15:53:50.925 [Test worker] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+æ15:53:50.925 [Test worker] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+à15:53:50.925 [Test worker] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy21
+ë15:53:50.926 [Test worker] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+t15:53:50.926 [Test worker] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+í15:53:50.926 [Test worker] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ê15:53:50.926 [Test worker] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+ª15:53:50.927 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@35a91edf
+[15:53:50.930 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Initializing servlet ''
+ñ15:53:50.930 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+ó15:53:50.930 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+è15:53:50.931 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ê15:53:50.931 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+⁄15:53:50.931 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+k15:53:50.931 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+o15:53:50.931 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+¨15:53:50.931 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+£15:53:50.931 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@765b9ea9]
+õ15:53:50.931 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@27235555]
+∏15:53:50.931 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1e508f46]
+£15:53:50.931 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@5d695f97]
+”15:53:50.932 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+y15:53:50.932 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
+f15:53:50.932 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Servlet '' configured successfully
+à15:53:50.934 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/search]
+ñ15:53:50.934 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /search
+ò15:53:50.934 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)]
+Å15:53:50.938 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Reading [class com.susu.movies.model.SearchMoviesRequest] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@77ed3c45]
+å15:53:50.939 [Test worker] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@4a595610, payload=[Ljava.lang.Class;@50e9daa2}, constraintType=GENERIC}.
+ù15:53:50.940 [Test worker] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@597aa163, min=1, message={javax.validation.constraints.Size.message}, max=2147483647, payload=[Ljava.lang.Class;@5993958a}, constraintType=GENERIC}.
+√15:53:50.950 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolving exception from handler [public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)]: org.springframework.web.client.RestClientException: error
+ª15:53:50.951 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Invoking @ExceptionHandler method: public org.springframework.http.ResponseEntity<java.lang.String> com.susu.movies.search.SearchMoviesController.handleSearchMoviesClientException(org.springframework.web.client.RestClientException)
+_15:53:50.952 [Test worker] WARN  c.s.m.search.SearchMoviesController - Error searching movies 
+:org.springframework.web.client.RestClientException: error
+Y	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_45]
+p	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_45]
+x	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_45]
+S	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[na:1.8.0_45]
+q	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77) ~[groovy-2.4.3.jar:2.4.3]
+ù	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102) ~[groovy-2.4.3.jar:2.4.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57) ~[groovy-2.4.3.jar:2.4.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:232) ~[groovy-2.4.3.jar:2.4.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:244) ~[groovy-2.4.3.jar:2.4.3]
+ë	at com.susu.movies.search.SearchMoviesControllerTest$__spock_feature_0_0prov2_closure4.doCall(SearchMoviesControllerTest.groovy:48) ~[test/:na]
+é	at com.susu.movies.search.SearchMoviesControllerTest$__spock_feature_0_0prov2_closure4.doCall(SearchMoviesControllerTest.groovy) ~[test/:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+g	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) ~[groovy-2.4.3.jar:2.4.3]
+Y	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324) ~[groovy-2.4.3.jar:2.4.3]
+}	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:292) ~[groovy-2.4.3.jar:2.4.3]
+^	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016) ~[groovy-2.4.3.jar:2.4.3]
+u	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:39) ~[groovy-2.4.3.jar:2.4.3]
+t	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-2.4.3.jar:2.4.3]
+u	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54) ~[groovy-2.4.3.jar:2.4.3]
+t	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:114) ~[groovy-2.4.3.jar:2.4.3]
+å	at com.susu.movies.search.SearchMoviesControllerTest$__spock_feature_0_0_closure1.doCall(SearchMoviesControllerTest.groovy:41) ~[test/:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+g	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) ~[groovy-2.4.3.jar:2.4.3]
+Y	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324) ~[groovy-2.4.3.jar:2.4.3]
+}	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:292) ~[groovy-2.4.3.jar:2.4.3]
+^	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016) ~[groovy-2.4.3.jar:2.4.3]
+I	at groovy.lang.Closure.call(Closure.java:423) ~[groovy-2.4.3.jar:2.4.3]
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeClosure(GroovyRuntimeUtil.java:184) ~[spock-core-0.7-groovy-2.0.jar:na]
+å	at org.spockframework.mock.response.CodeResponseGenerator.invokeClosure(CodeResponseGenerator.java:53) ~[spock-core-0.7-groovy-2.0.jar:na]
+à	at org.spockframework.mock.response.CodeResponseGenerator.doRespond(CodeResponseGenerator.java:36) ~[spock-core-0.7-groovy-2.0.jar:na]
+ä	at org.spockframework.mock.response.SingleResponseGenerator.respond(SingleResponseGenerator.java:31) ~[spock-core-0.7-groovy-2.0.jar:na]
+à	at org.spockframework.mock.response.ResponseGeneratorChain.respond(ResponseGeneratorChain.java:45) ~[spock-core-0.7-groovy-2.0.jar:na]
+x	at org.spockframework.mock.runtime.MockInteraction.accept(MockInteraction.java:76) ~[spock-core-0.7-groovy-2.0.jar:na]
+ä	at org.spockframework.mock.runtime.MockInteractionDecorator.accept(MockInteractionDecorator.java:46) ~[spock-core-0.7-groovy-2.0.jar:na]
+|	at org.spockframework.mock.runtime.InteractionScope$1.accept(InteractionScope.java:41) ~[spock-core-0.7-groovy-2.0.jar:na]
+v	at org.spockframework.mock.runtime.MockController.handle(MockController.java:39) ~[spock-core-0.7-groovy-2.0.jar:na]
+É	at org.spockframework.mock.runtime.JavaMockInterceptor.intercept(JavaMockInterceptor.java:72) ~[spock-core-0.7-groovy-2.0.jar:na]
+ì	at org.spockframework.mock.runtime.CglibMockInterceptorAdapter.intercept(CglibMockInterceptorAdapter.java:30) ~[spock-core-0.7-groovy-2.0.jar:na]
+å	at com.susu.movies.search.adapter.DefaultSearchMoviesAdapter$$EnhancerByCGLIB$$fc9fd66.searchMovies(<generated>) ~[cglib-nodep-3.1.jar:na]
+m	at com.susu.movies.search.SearchMoviesController.searchMovies(SearchMoviesController.groovy:36) ~[main/:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+ö	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+¢	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+¡	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+¬	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+æ	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+™	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+é	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+ç	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+è	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+á	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+h	at javax.servlet.http.HttpServlet.service(HttpServlet.java:644) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+à	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+î	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+h	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+ï	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+Ç	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+y	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:144) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+|	at org.springframework.test.web.servlet.MockMvc$perform.call(Unknown Source) [spring-test-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+z	at com.susu.movies.search.SearchMoviesControllerTest.$spock_feature_0_0(SearchMoviesControllerTest.groovy:37) [test/:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+t	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:na]
+~	at org.spockframework.runtime.BaseSpecRunner.invokeFeatureMethod(BaseSpecRunner.java:285) [spock-core-0.7-groovy-2.0.jar:na]
+y	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:256) [spock-core-0.7-groovy-2.0.jar:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+t	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:na]
+w	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:223) [spock-core-0.7-groovy-2.0.jar:na]
+Ñ	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:214) [spock-core-0.7-groovy-2.0.jar:na]
+ä	at org.spockframework.runtime.ParameterizedSpecRunner.runIterations(ParameterizedSpecRunner.java:119) [spock-core-0.7-groovy-2.0.jar:na]
+ì	at org.spockframework.runtime.ParameterizedSpecRunner.runParameterizedFeature(ParameterizedSpecRunner.java:43) [spock-core-0.7-groovy-2.0.jar:na]
+w	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:198) [spock-core-0.7-groovy-2.0.jar:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+t	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:na]
+u	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:175) [spock-core-0.7-groovy-2.0.jar:na]
+v	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:152) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:112) [spock-core-0.7-groovy-2.0.jar:na]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+t	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:na]
+t	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:na]
+q	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:91) [spock-core-0.7-groovy-2.0.jar:na]
+m	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:82) [spock-core-0.7-groovy-2.0.jar:na]
+_	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) [spock-core-0.7-groovy-2.0.jar:na]
+ë	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86) [gradle-plugins-2.3.jar:2.3]
+å	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49) [gradle-plugins-2.3.jar:2.3]
+ó	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64) [gradle-plugins-2.3.jar:2.3]
+ë	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50) [gradle-plugins-2.3.jar:2.3]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+y	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-2.3.jar:2.3]
+y	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-2.3.jar:2.3]
+â	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-2.3.jar:2.3]
+ò	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-2.3.jar:2.3]
+C	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106) [gradle-plugins-2.3.jar:2.3]
+O	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+a	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+i	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+D	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+y	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-2.3.jar:2.3]
+y	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-2.3.jar:2.3]
+x	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360) [gradle-messaging-2.3.jar:2.3]
+ô	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64) [gradle-base-services-2.3.jar:2.3]
+b	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_45]
+b	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_45]
+8	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+‹15:53:50.954 [Test worker] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [error] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@77ed3c45]
+¥15:53:50.954 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Null ModelAndView returned to DispatcherServlet with name '': assuming HandlerAdapter completed request handling
+b15:53:50.954 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Successfully completed request
+ã15:53:50.956 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+å15:53:50.956 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+û15:53:50.956 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+›15:53:50.958 [Test worker] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/search],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)
+“15:53:50.962 [Test worker] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+æ15:53:50.962 [Test worker] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+à15:53:50.962 [Test worker] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy21
+ë15:53:50.962 [Test worker] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+t15:53:50.962 [Test worker] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+í15:53:50.962 [Test worker] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+ê15:53:50.962 [Test worker] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+ª15:53:50.963 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@51462394
+[15:53:50.965 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Initializing servlet ''
+ñ15:53:50.966 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+ó15:53:50.966 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+è15:53:50.966 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ê15:53:50.966 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+⁄15:53:50.966 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+k15:53:50.966 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+o15:53:50.966 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+¨15:53:50.967 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+£15:53:50.967 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@3f407488]
+õ15:53:50.967 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@4acadfc2]
+∏15:53:50.967 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7677e7a5]
+£15:53:50.967 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@7c38fbf5]
+”15:53:50.967 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+y15:53:50.967 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
+f15:53:50.967 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Servlet '' configured successfully
+à15:53:50.970 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/search]
+ñ15:53:50.970 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /search
+ò15:53:50.971 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)]
+Å15:53:50.974 [Test worker] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Reading [class com.susu.movies.model.SearchMoviesRequest] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3a319943]
+å15:53:50.975 [Test worker] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, groups=[Ljava.lang.Class;@57fa1680, payload=[Ljava.lang.Class;@61b776bd}, constraintType=GENERIC}.
+ù15:53:50.976 [Test worker] DEBUG o.h.v.i.m.d.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@3a1c1555, min=1, message={javax.validation.constraints.Size.message}, max=2147483647, payload=[Ljava.lang.Class;@76aa111c}, constraintType=GENERIC}.
+g15:53:50.985 [Test worker] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+r15:53:50.986 [Test worker] DEBUG o.h.v.r.PlatformResourceBundleLocator - ContributorValidationMessages not found.
+{15:53:50.987 [Test worker] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+g15:53:50.996 [Test worker] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+r15:53:50.997 [Test worker] DEBUG o.h.v.r.PlatformResourceBundleLocator - ContributorValidationMessages not found.
+{15:53:50.997 [Test worker] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+å
+15:53:51.010 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolving exception from handler [public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)]: org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest), with 2 error(s): [Field error in object 'searchMoviesRequest' on field 'query': rejected value [null]; codes [NotEmpty.searchMoviesRequest.query,NotEmpty.query,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [searchMoviesRequest.query,query]; arguments []; default message [query]]; default message [may not be empty]] [Field error in object 'searchMoviesRequest' on field 'query': rejected value [null]; codes [NotNull.searchMoviesRequest.query,NotNull.query,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [searchMoviesRequest.query,query]; arguments []; default message [query]]; default message [may not be null]] 
+à
+15:53:51.011 [Test worker] DEBUG o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolving exception from handler [public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)]: org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest), with 2 error(s): [Field error in object 'searchMoviesRequest' on field 'query': rejected value [null]; codes [NotEmpty.searchMoviesRequest.query,NotEmpty.query,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [searchMoviesRequest.query,query]; arguments []; default message [query]]; default message [may not be empty]] [Field error in object 'searchMoviesRequest' on field 'query': rejected value [null]; codes [NotNull.searchMoviesRequest.query,NotNull.query,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [searchMoviesRequest.query,query]; arguments []; default message [query]]; default message [may not be null]] 
+à
+15:53:51.011 [Test worker] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolving exception from handler [public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest)]: org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public com.susu.movies.SearchMoviesResponse com.susu.movies.search.SearchMoviesController.searchMovies(com.susu.movies.model.SearchMoviesRequest), with 2 error(s): [Field error in object 'searchMoviesRequest' on field 'query': rejected value [null]; codes [NotEmpty.searchMoviesRequest.query,NotEmpty.query,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [searchMoviesRequest.query,query]; arguments []; default message [query]]; default message [may not be empty]] [Field error in object 'searchMoviesRequest' on field 'query': rejected value [null]; codes [NotNull.searchMoviesRequest.query,NotNull.query,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [searchMoviesRequest.query,query]; arguments []; default message [query]]; default message [may not be null]] 
+¥15:53:51.012 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Null ModelAndView returned to DispatcherServlet with name '': assuming HandlerAdapter completed request handling
+b15:53:51.012 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Successfully completed request

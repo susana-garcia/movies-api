@@ -1,0 +1,7 @@
+apply plugin: 'groovy'
+
+dependencies {
+
+  compile "org.codehaus.groovy:groovy:${groovyVersion}"
+  compile "com.fasterxml.jackson.core:jackson-annotations:2.5.4"
+}
